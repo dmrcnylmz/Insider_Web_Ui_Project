@@ -1,0 +1,16 @@
+Created by testinium on 11.01.2021
+
+This is a concept file with following syntax for each concept.
+
+# Select “More” menu in navigation bar, select “Careers” and check Career page, its Locations, Teams and Life at Insider blocks are opened or not
+* Wait for "HomePage_Header_More_Button" and click
+* Wait for "HomePage_Header_More_Careers_Button" and click
+* Logger -> "You are on the careers page"
+* Is element "CareersPage_Dream_Job_Button_Control" on the page ? If not on the page write "You are not in careers page"
+* Is element "CareersPage_Team_Customer_Success_Control" on the page ? If not on the page write "Customer succses is not on the page"
+* Is element "CareersPage_Team_Sales_Control" on the page ? If not on the page write "Sales is not on page"
+* Is element "CareersPage_Team_Product_Engineering_Control" on the page ? If not on the page write "Product engineering is not on the page"
+* Is element "CareersPage_Location_Indianapolis_Control" on the page ? If not on the page write "Location indianapolis is not "
+* Is element "CareersPage_Location_Sao_Paulo_Control" on the page ? If not on the page write "Location sao paulo is not on the page"
+* Is element "CareersPage_Life_At_Insider_Control" on the page ? If not on the page write "Life at insider block is not on the page"
+

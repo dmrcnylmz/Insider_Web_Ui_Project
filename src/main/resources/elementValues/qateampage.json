@@ -1,0 +1,77 @@
+[
+{
+  "key": "QA_Team_See_All_Jobs_Button",
+  "value": "//a[.='See all QA jobs']",
+  "type": "xpath"
+},
+  {
+"key": "QA_Team_All_Jobs_Filter_Dropdown",
+"value": "span#select2-filter-by-location-container",
+"type": "css"
+},
+  {
+"key": "QA_Team_Department_Filter_Dropdown",
+"value": "span#select2-filter-by-department-container",
+"type": "css"
+},
+  {
+"key": "QA_Team_Department_Dropdown_QA_Button",
+"value": "//li[.='Quality Assurance']",
+"type": "xpath"
+},
+{
+"key": "QA_Team_All_Jobs_Filter_Istanbul_Button",
+"value": "ul#select2-filter-by-location-results > li:nth-of-type(12)",
+"type": "css"
+},
+{
+"key": "QA_Team_All_Jobs_Filter_QA_Control",
+"value": "//span[@title='Quality Assurance']",
+"type": "xpath"
+},
+{
+"key": "QA_Team_Jobs_QA_Title_Management_Control",
+"value": "(//span[.='Quality Assurance'])[1]",
+"type": "xpath"
+},
+  {
+"key": "QA_Team_Jobs_QA_Title_QA_Tester_Control",
+"value": "(//span[.='Quality Assurance'])[2]",
+"type": "xpath"
+},
+  {
+"key": "QA_Team_Jobs_QA_Title_QA_Analist_Control",
+"value": "(//span[.='Quality Assurance'])[3]",
+"type": "xpath"
+},
+  {
+"key": "QA_Team_Jobs_QA_Title_QA_Engineer_Control",
+"value": "(//span[.='Quality Assurance'])[4]",
+"type": "xpath"
+},
+{
+"key": "QA_Team_Jobs_Apply_Now_1",
+"value": "(//a[.='Apply Now'])[1]",
+"type": "xpath"
+},
+  {
+"key": "QA_Team_Jobs_Apply_Now_2",
+"value": "(//a[.='Apply Now'])[2]",
+"type": "xpath"
+},
+  {
+"key": "QA_Team_Jobs_Apply_Now_3",
+"value": "(//a[.='Apply Now'])[3]",
+"type": "xpath"
+},
+  {
+"key": "QA_Team_Jobs_Apply_Now_4",
+"value": "(//a[.='Apply Now'])[4]",
+"type": "xpath"
+},
+  {
+"key": "QA_Team_Jobs_Lever_Page_Apply_Job_Button",
+"value": "(//a[.='Apply for this job'])[1]",
+"type": "xpath"
+}
+]

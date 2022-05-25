@@ -1,0 +1,22 @@
+[
+  {
+    "key": "HomePage_Header_Image_Control",
+    "value": "//nav[@id='navigation']//a[@href='/']/img",
+    "type": "xpath"
+  },{
+    "key": "HomePage_Cookies_Accept_Button",
+    "value": "wt-cli-accept-all-btn",
+    "type": "id"
+  },
+  {
+    "key": "HomePage_Header_More_Button",
+    "value": "li:nth-of-type(6) > .dropdown-toggle.nav-link > span",
+    "type": "css"
+  },
+ {
+    "key": "HomePage_Header_More_Careers_Button",
+    "value": "//h5[.='Careers']",
+    "type": "xpath"
+  }
+
+]

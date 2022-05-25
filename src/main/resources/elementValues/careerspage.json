@@ -1,0 +1,45 @@
+[
+  {
+    "key": "CareersPage_Dream_Job_Button_Control",
+    "value": "(//a[.='Find your dream job'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "CareersPage_Team_Customer_Success_Control",
+    "value": "//h3[.='Customer Success']",
+    "type": "xpath"
+  },
+  {
+    "key": "CareersPage_Team_Sales_Control",
+    "value": "//h3[.='Sales']",
+    "type": "xpath"
+  },
+  {
+    "key": "CareersPage_Team_Product_Engineering_Control",
+    "value": "//h3[.='Product & Engineering']",
+    "type": "xpath"
+  },
+  {
+    "key": "CareersPage_Location_Indianapolis_Control",
+    "value": "//p[.='Indianapolis']",
+    "type": "xpath"
+  },
+  {
+    "key": "CareersPage_Location_Sao_Paulo_Control",
+    "value": "//p[.='Sao Paulo']",
+    "type": "xpath"
+  },{
+  "key": "CareersPage_Life_At_Insider_Control",
+  "value": "//h2[.='Life at Insider']",
+  "type": "xpath"
+},{
+  "key": "CareersPage_See_All_Teams_Button",
+  "value": "//a[.='See all teams']",
+  "type": "xpath"
+},
+  {
+    "key": "CareersPage_QA_Team_Button",
+    "value": "//h3[.='Quality Assurance']",
+    "type": "xpath"
+  }
+]

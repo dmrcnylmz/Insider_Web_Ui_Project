@@ -1,0 +1,32 @@
+Created by dmrcnylmz on 25.05.2022
+
+This is a concept file with following syntax for each concept.
+ # Click “See All Teams”, select Quality Assurance, click “See all QA jobs”, filter jobs by Location - Istanbul, Turkey and department - Quality Assurance, check presence of jobs list
+* Javascript ile tıkla "CareersPage_See_All_Teams_Button"
+* Javascript ile tıkla "CareersPage_QA_Team_Button"
+* Javascript ile tıkla "QA_Team_See_All_Jobs_Button"
+* Logger -> "You are on the QA team page"
+* Wait for "QA_Team_All_Jobs_Filter_Dropdown" and click
+* Wait for "QA_Team_All_Jobs_Filter_Istanbul_Button" and click
+* Wait for "QA_Team_Department_Filter_Dropdown" and click
+* Wait for "QA_Team_Department_Dropdown_QA_Button" and click
+* Is element "QA_Team_All_Jobs_Filter_QA_Control" on the page ? If not on the page write "QA not title not on the dropdown"
+* Javascript ile elemente kaydır "QA_Team_Jobs_QA_Title_Management_Control"
+* Is element "QA_Team_Jobs_QA_Title_Management_Control" on the page ? If not on the page write "QA jobs management QA title is not on the page"
+* Is element "QA_Team_Jobs_QA_Title_QA_Tester_Control" on the page ? If not on the page write "QA jobs tester QA title is not on the page"
+* Is element "QA_Team_Jobs_QA_Title_QA_Analist_Control" on the page ? If not on the page write "QA jobs analist QA title is not on the page"
+* Is element "QA_Team_Jobs_QA_Title_QA_Engineer_Control" on the page ? If not on the page write "QA jobs engineer QA title is not on the page"
+
+# Check that all jobs’ Position contains “Quality Assurance”, Department contains “Quality Assurance”, Location contains “Istanbul, Turkey” and “Apply Now” button 5. Click “Apply Now” button and check that this action redirects us to Lever Application form page
+* Hover to "QA_Team_Jobs_QA_Title_Management_Control"
+* Is element "QA_Team_Jobs_Apply_Now_1" on the page ? If not on the page write "Apply now is not on the page"
+* Hover to "QA_Team_Jobs_QA_Title_QA_Tester_Control"
+* Is element "QA_Team_Jobs_Apply_Now_2" on the page ? If not on the page write "Apply now is not on the page"
+* Hover to "QA_Team_Jobs_QA_Title_QA_Analist_Control"
+* Is element "QA_Team_Jobs_Apply_Now_3" on the page ? If not on the page write "Apply now is not on the page"
+* Hover to "QA_Team_Jobs_QA_Title_QA_Engineer_Control"
+* Is element "QA_Team_Jobs_Apply_Now_4" on the page ? If not on the page write "Apply now is not on the page"
+* Hover to "QA_Team_Jobs_QA_Title_Management_Control"
+* Wait for "QA_Team_Jobs_Apply_Now_1" and click
+* Action to the new tab
+* Is element "QA_Team_Jobs_Lever_Page_Apply_Job_Button" on the page ? If not on the page write "You are not on the lever page"

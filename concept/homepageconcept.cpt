@@ -1,0 +1,8 @@
+Created by testinium on 10.01.2021
+
+This is a concept file with following syntax for each concept.
+# Visit https://useinsider.com/ and check Insider home page is opened or not
+* Go to "https://useinsider.com/"
+* If element "HomePage_Cookies_Accept_Button" visible then click
+* Is element "HomePage_Header_Image_Control" on the page ? If not on the page write "You are not in home page"
+* Logger -> "You are on the insider home page"
